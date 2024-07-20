@@ -13,6 +13,8 @@ class Matrix:
         self.nCols = len(m[0])
         self.m = copy.deepcopy(m)
         
+
+        
         #check if m: list[list] is a valid matrix
         for row in m:
             if len(row) != self.nCols:
