@@ -21,3 +21,5 @@ class Lifegame:
                     self[i][j] = 1 if self.rule(countneighbors) else 0
     def print(self):
         pprint(self.board)
+
+        #abbaabba
